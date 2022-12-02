@@ -1,11 +1,9 @@
 package transport;
-
-public class Car {
+import java.util.regex.Pattern;
+public class Car extends Transport {
     private String transmission;
     private String bodyType;
     private String registrationNumber;
-}
-
 
     public Car(String brand, String model, int year, String country, String colorBody, int speedMax, String transmission, String bodyType, String registrationNumber) {
         super(brand, model, year, country, colorBody, speedMax);

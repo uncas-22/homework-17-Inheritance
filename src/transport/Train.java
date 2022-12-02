@@ -1,6 +1,6 @@
 package transport;
 
-public class Train {
+public class Train extends Transport {
     private int priceTrip;
     private int timeTrip;
     private String departureStation;
